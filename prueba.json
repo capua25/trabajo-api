@@ -1,0 +1,949 @@
+{
+    "documentation": "https://opencagedata.com/api",
+    "licenses": [
+        {
+            "name": "see attribution guide",
+            "url": "https://opencagedata.com/credits"
+        }
+    ],
+    "rate": {
+        "limit": 2500,
+        "remaining": 2498,
+        "reset": 1696204800
+    },
+    "results": [
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "33° 59' 48.92604'' S",
+                    "lng": "58° 17' 2.58792'' W"
+                },
+                "MGRS": "21HUC8141237442",
+                "Maidenhead": "GF06ua50vr",
+                "Mercator": {
+                    "x": -6488151.012,
+                    "y": -4004497.976
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=2757912#map=16/-33.99692/-58.28405",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-33.99692/-58.28405&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-33.99692&mlon=-58.28405#map=16/-33.99692/-58.28405"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "69yw9ence4hc81brz53j",
+                "qibla": 76.02,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152660,
+                        "astronomical": 1696147620,
+                        "civil": 1696151160,
+                        "nautical": 1696149420
+                    },
+                    "set": {
+                        "apparent": 1696197300,
+                        "astronomical": 1696202340,
+                        "civil": 1696198800,
+                        "nautical": 1696200540
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "bootleg.craters.price"
+                },
+                "wikidata": "Q1043575"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -33.9725815,
+                    "lng": -58.2590901
+                },
+                "southwest": {
+                    "lat": -34.0203035,
+                    "lng": -58.3066037
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CO"
+                ],
+                "_category": "place",
+                "_type": "city",
+                "city": "Carmelo",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "postcode": "70100",
+                "state": "Colonia",
+                "state_code": "CO"
+            },
+            "confidence": 7,
+            "formatted": "Carmelo, Colonia, Uruguay",
+            "geometry": {
+                "lat": -33.9969239,
+                "lng": -58.2840522
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "33° 59' 47.20344'' S",
+                    "lng": "58° 17' 4.22052'' W"
+                },
+                "MGRS": "21HUC8136937494",
+                "Maidenhead": "GF06ua50uu",
+                "Mercator": {
+                    "x": -6488201.496,
+                    "y": -4004434.024
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=151103556#map=16/-33.99645/-58.28451",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-33.99645/-58.28451&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-33.99645&mlon=-58.28451#map=16/-33.99645/-58.28451"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "69yw9ens2e4xgjdsm0w1",
+                "qibla": 76.02,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Uruguay",
+                    "road_type": "tertiary",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152660,
+                        "astronomical": 1696147620,
+                        "civil": 1696151160,
+                        "nautical": 1696149420
+                    },
+                    "set": {
+                        "apparent": 1696197300,
+                        "astronomical": 1696202340,
+                        "civil": 1696198800,
+                        "nautical": 1696200540
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "layers.requested.item"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -33.9901499,
+                    "lng": -58.2830619
+                },
+                "southwest": {
+                    "lat": -34.0033515,
+                    "lng": -58.2861139
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CO"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "city": "Carmelo",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "postcode": "70100",
+                "road": "Uruguay",
+                "road_type": "tertiary",
+                "state": "Colonia",
+                "state_code": "CO"
+            },
+            "confidence": 8,
+            "formatted": "Uruguay, 70100 Carmelo",
+            "geometry": {
+                "lat": -33.9964454,
+                "lng": -58.2845057
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "34° 51' 44.53704'' S",
+                    "lng": "56° 11' 30.61680'' W"
+                },
+                "MGRS": "21HWB7387041921",
+                "Maidenhead": "GF15vd63xa",
+                "Mercator": {
+                    "x": -6255246.793,
+                    "y": -4120769.549
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=78115647#map=16/-34.86237/-56.19184",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-34.86237/-56.19184&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-34.86237&mlon=-56.19184#map=16/-34.86237/-56.19184"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "6cb19m6rgqbwpkk0d0g3",
+                "qibla": 75.24,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Carmelo",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152120,
+                        "astronomical": 1696147020,
+                        "civil": 1696150620,
+                        "nautical": 1696148880
+                    },
+                    "set": {
+                        "apparent": 1696196820,
+                        "astronomical": 1696201920,
+                        "civil": 1696198320,
+                        "nautical": 1696200120
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "noble.famed.phantom"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -34.8618745,
+                    "lng": -56.1916615
+                },
+                "southwest": {
+                    "lat": -34.8624472,
+                    "lng": -56.1929914
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-MO"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "city": "Montevideo",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "postcode": "11700",
+                "road": "Carmelo",
+                "road_type": "residential",
+                "state": "Montevideo",
+                "state_code": "MO",
+                "suburb": "Atahualpa"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, 11700 Montevideo, Uruguay",
+            "geometry": {
+                "lat": -34.8623714,
+                "lng": -56.191838
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "34° 44' 41.51580'' S",
+                    "lng": "56° 12' 50.15556'' W"
+                },
+                "MGRS": "21HWB7195254968",
+                "Maidenhead": "GF15vg41hf",
+                "Mercator": {
+                    "x": -6257706.297,
+                    "y": -4104911.159
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=36348444#map=16/-34.74487/-56.21393",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-34.74487/-56.21393&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-34.74487&mlon=-56.21393#map=16/-34.74487/-56.21393"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "6cb42ffk2rwhjs5tp4gp",
+                "qibla": 75.22,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Carmelo",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152180,
+                        "astronomical": 1696147080,
+                        "civil": 1696150620,
+                        "nautical": 1696148880
+                    },
+                    "set": {
+                        "apparent": 1696196820,
+                        "astronomical": 1696201920,
+                        "civil": 1696198320,
+                        "nautical": 1696200120
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "thirsty.active.doted"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -34.744802,
+                    "lng": -56.2124815
+                },
+                "southwest": {
+                    "lat": -34.7449643,
+                    "lng": -56.2154942
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CA"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "city": "Las Piedras",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "municipality": "Municipio de Las Piedras",
+                "postcode": "90200",
+                "road": "Carmelo",
+                "road_type": "residential",
+                "state": "Canelones",
+                "state_code": "CA"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, 90200 Las Piedras, Uruguay",
+            "geometry": {
+                "lat": -34.7448655,
+                "lng": -56.2139321
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "33° 52' 29.80632'' S",
+                    "lng": "58° 24' 16.84260'' W"
+                },
+                "MGRS": "21HUC7008650821",
+                "Maidenhead": "GF06td10ka",
+                "Mercator": {
+                    "x": -6501579.071,
+                    "y": -3988207.252
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=184991189#map=16/-33.87495/-58.40468",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-33.87495/-58.40468&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-33.87495&mlon=-58.40468#map=16/-33.87495/-58.40468"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "69yrqcr00k76bkk631s2",
+                "qibla": 76.04,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Carmelo",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152720,
+                        "astronomical": 1696147680,
+                        "civil": 1696151220,
+                        "nautical": 1696149420
+                    },
+                    "set": {
+                        "apparent": 1696197300,
+                        "astronomical": 1696202400,
+                        "civil": 1696198800,
+                        "nautical": 1696200600
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "simulation.sentiment.bats"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -33.8716845,
+                    "lng": -58.400722
+                },
+                "southwest": {
+                    "lat": -33.8782283,
+                    "lng": -58.4086723
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CO"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "postcode": "70101",
+                "road": "Carmelo",
+                "road_type": "residential",
+                "state": "Colonia",
+                "state_code": "CO",
+                "town": "Nueva Palmira"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, 70101 Nueva Palmira, Uruguay",
+            "geometry": {
+                "lat": -33.8749462,
+                "lng": -58.4046785
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "34° 15' 46.32336'' S",
+                    "lng": "57° 36' 58.03848'' W"
+                },
+                "MGRS": "21HVC4327708525",
+                "Maidenhead": "GF15er66bv",
+                "Mercator": {
+                    "x": -6413797.34,
+                    "y": -4040098.164
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=186073349#map=16/-34.26287/-57.61612",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-34.26287/-57.61612&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-34.26287&mlon=-57.61612#map=16/-34.26287/-57.61612"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "69zj0fthr49c85hsxx5n",
+                "qibla": 75.78,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Carmelo",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152480,
+                        "astronomical": 1696147440,
+                        "civil": 1696150980,
+                        "nautical": 1696149240
+                    },
+                    "set": {
+                        "apparent": 1696197120,
+                        "astronomical": 1696202220,
+                        "civil": 1696198620,
+                        "nautical": 1696200420
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "decodes.sensations.workroom"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -34.2618962,
+                    "lng": -57.6133708
+                },
+                "southwest": {
+                    "lat": -34.2639971,
+                    "lng": -57.6193883
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CO"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "postcode": "70002",
+                "road": "Carmelo",
+                "road_type": "residential",
+                "state": "Colonia",
+                "state_code": "CO",
+                "town": "Tarariras"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, 70002 Tarariras, Uruguay",
+            "geometry": {
+                "lat": -34.2628676,
+                "lng": -57.6161218
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "34° 49' 45.85116'' S",
+                    "lng": "54° 38' 28.79232'' W"
+                },
+                "MGRS": "21HYB1569943338",
+                "Maidenhead": "GF25qe30aw",
+                "Mercator": {
+                    "x": -6082645.165,
+                    "y": -4116317.902
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=184212879#map=16/-34.82940/-54.64133",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-34.82940/-54.64133&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-34.82940&mlon=-54.64133#map=16/-34.82940/-54.64133"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "6cc1uee2h8wmsww2j64z",
+                "qibla": 74.44,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Carmelo",
+                    "road_type": "service",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696151760,
+                        "astronomical": 1696146660,
+                        "civil": 1696150260,
+                        "nautical": 1696148460
+                    },
+                    "set": {
+                        "apparent": 1696196460,
+                        "astronomical": 1696201560,
+                        "civil": 1696197960,
+                        "nautical": 1696199760
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "revolt.goody.truly"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -34.8291155,
+                    "lng": -54.6404015
+                },
+                "southwest": {
+                    "lat": -34.8294031,
+                    "lng": -54.6413312
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-MA"
+                ],
+                "_category": "road",
+                "_type": "road",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "neighbourhood": "Pinares del Faro",
+                "postcode": "20402",
+                "road": "Carmelo",
+                "road_type": "service",
+                "state": "Maldonado",
+                "state_code": "MA",
+                "village": "José Ignacio"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, 20402 José Ignacio, Uruguay",
+            "geometry": {
+                "lat": -34.8294031,
+                "lng": -54.6413312
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "33° 59' 51.84384'' S",
+                    "lng": "58° 17' 8.83896'' W"
+                },
+                "MGRS": "21HUC8125337350",
+                "Maidenhead": "GF06ua50qn",
+                "Mercator": {
+                    "x": -6488344.307,
+                    "y": -4004606.301
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?node=5105342625#map=16/-33.99773/-58.28579",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=16/-33.99773/-58.28579&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-33.99773&mlon=-58.28579#map=16/-33.99773/-58.28579"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "UY": "858",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 598,
+                "currency": {
+                    "alternate_symbols": [
+                        "$U"
+                    ],
+                    "decimal_mark": ",",
+                    "html_entity": "$U",
+                    "iso_code": "UYU",
+                    "iso_numeric": "858",
+                    "name": "Uruguayan Peso",
+                    "smallest_denomination": 100,
+                    "subunit": "Centésimo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$U",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇺🇾",
+                "geohash": "69yw9dvsfdvyxzsxq6es",
+                "qibla": 76.02,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "road": "Doctor Juan Zorrilla de San Martín",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1696152660,
+                        "astronomical": 1696147620,
+                        "civil": 1696151160,
+                        "nautical": 1696149420
+                    },
+                    "set": {
+                        "apparent": 1696197300,
+                        "astronomical": 1696202340,
+                        "civil": 1696198800,
+                        "nautical": 1696200540
+                    }
+                },
+                "timezone": {
+                    "name": "America/Montevideo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "pressing.trumpet.deliver"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -33.9976844,
+                    "lng": -58.2857386
+                },
+                "southwest": {
+                    "lat": -33.9977844,
+                    "lng": -58.2858386
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "UY",
+                "ISO_3166-1_alpha-3": "URY",
+                "ISO_3166-2": [
+                    "UY-CO"
+                ],
+                "_category": "health",
+                "_type": "pharmacy",
+                "city": "Carmelo",
+                "continent": "South America",
+                "country": "Uruguay",
+                "country_code": "uy",
+                "pharmacy": "Carmelo",
+                "postcode": "70100",
+                "road": "Doctor Juan Zorrilla de San Martín",
+                "state": "Colonia",
+                "state_code": "CO"
+            },
+            "confidence": 9,
+            "formatted": "Carmelo, Doctor Juan Zorrilla de San Martín, 70100 Carmelo, Uruguay",
+            "geometry": {
+                "lat": -33.9977344,
+                "lng": -58.2857886
+            }
+        }
+    ],
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "stay_informed": {
+        "blog": "https://blog.opencagedata.com",
+        "mastodon": "https://en.osm.town/@opencage"
+    },
+    "thanks": "For using an OpenCage API",
+    "timestamp": {
+        "created_http": "Sun, 01 Oct 2023 13:26:11 GMT",
+        "created_unix": 1696166771
+    },
+    "total_results": 8
+}
