@@ -32,18 +32,48 @@ const WMO = {
     96: 'Thunderstorm with slight hail',
     99: 'Thunderstorm with heavy hail'
 }
+const IMG = {
+    0: 'img/sun.png',
+    1: 'img/sun.png',
+    2: 'img/cloudy.png',
+    3: 'img/cloud.png',
+    45: 'img/haze.png',
+    48: 'img/haze.png',
+    51: 'img/drizzle.png',
+    53: 'img/drizzle.png',
+    55: 'img/drizzle.png',
+    56: 'img/drizzle.png',
+    57: 'img/drizzle.png',
+    61: 'img/rain.png',
+    63: 'img/rain.png',
+    65: 'img/rain.png',
+    66: 'img/rain.png',
+    67: 'img/rain.png',
+    71: 'img/snow.png',
+    73: 'img/snow.png',
+    75: 'img/snow.png',
+    77: 'img/snow.png',
+    80: 'img/rain.png',
+    81: 'img/rain.png',
+    82: 'img/rain.png',
+    85: 'img/snow.png',
+    86: 'img/snow.png',
+    95: 'img/thunderstorm.png',
+    96: 'img/thunderstorm.png',
+    99: 'img/thunderstorm.png'
+}
 
 const screen = document.getElementById('screen');
 
 document.addEventListener('DOMContentLoaded', () => {
-//    screen.innerHTML = `
-//    <div id="location">
-//        <div class="container">
-//            <label for="locate">Please enter your location</label>
-//            <input type="search" name="locate" id="city" placeholder="City, State, Country">
-//            <button id="search">I got it</button>
-//        </div>
-//    </div>`;
+   screen.innerHTML = `
+   <div id="location">
+       <div class="container">
+           <label for="locate">Please enter your location</label>
+           <input type="search" name="locate" id="city" placeholder="City, State, Country">
+           <button id="search">I got it</button>
+       </div>
+   </div>`;
     const search = document.getElementById('search');
     search.addEventListener('click', () => {
         getLocation();
@@ -74,58 +104,67 @@ async function getData(location) {
 }
 
 function showWeather(data){
+    const forecast = data.daily
+
     screen.innerHTML = `
     <div id="weather">
         <div class="container">
             <div class="week">
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[0]}</p>
+                    <img src=${IMG[forecast.weathercode[0]]}>
+                    <h3>${WMO[forecast.weathercode[0]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[0]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[0]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[0]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[1]}</p>
+                    <img src=${IMG[forecast.weathercode[1]]}>
+                    <h3>${WMO[forecast.weathercode[1]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[1]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[1]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[1]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[2]}</p>
+                    <img src=${IMG[forecast.weathercode[2]]}>
+                    <h3>${WMO[forecast.weathercode[2]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[2]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[2]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[2]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[3]}</p>
+                    <img src=${IMG[forecast.weathercode[3]]}>
+                    <h3>${WMO[forecast.weathercode[3]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[3]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[3]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[3]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[4]}</p>
+                    <img src=${IMG[forecast.weathercode[4]]}>
+                    <h3>${WMO[forecast.weathercode[4]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[4]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[4]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[4]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[5]}</p>
+                    <img src=${IMG[forecast.weathercode[5]]}>
+                    <h3>${WMO[forecast.weathercode[5]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[5]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[5]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[5]}%</p>
                 </div>
                 <div class="card">
-                    <img>
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>${forecast.time[6]}</p>
+                    <img src=${IMG[forecast.weathercode[6]]}>
+                    <h3>${WMO[forecast.weathercode[6]]}</h3>
+                    <p>Max temp. ${forecast.temperature_2m_max[6]}°C</p>
+                    <p>Min temp. ${forecast.temperature_2m_min[6]}°C</p>
+                    <p>Max precipitation probability: ${forecast.precipitation_probability_max[6]}%</p>
                 </div>
             </div>
         </div>
