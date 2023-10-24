@@ -95,7 +95,13 @@ async function getLocation() {
 }
 
 async function getData(location) {
-    let coordinates = [location.results[0].geometry.lat,location.results[0].geometry.lng];
+    let coordinates
+    try{
+        coordinates = [location.results[0].geometry.lat,location.results[0].geometry.lng];
+    }catch{
+        alert("No se encontró la localidad");
+        return;
+    }
     let weather_url2 = `latitude=${coordinates[0]}&longitude=${coordinates[1]}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=GMT`;//${coordinates[2]}`;
     const res = await fetch(weather_url+weather_url2);
     const data = await res.json();
